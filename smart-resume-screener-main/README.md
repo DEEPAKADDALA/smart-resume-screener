@@ -582,20 +582,6 @@ smart-resume-screener/
 
 ---
 
-## 🎬 Demo
-
-### Screenshots
-
-**Landing Page:**
-![Landing Page](pics/1.jpeg)
-
-**Upload Interface and AI Results:**
-![Upload Interface](pics/3.jpeg)
-
-
-
----
-
 ## 🔐 Security
 
 - ✅ API keys in properties (excluded from Git)
