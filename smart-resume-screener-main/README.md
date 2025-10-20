@@ -19,13 +19,6 @@
 
 **Smart Resume Screener** is an intelligent recruitment automation tool that combines PDF parsing with Large Language Model (LLM) technology to revolutionize the hiring process. It automatically extracts structured data from resumes and uses AI to provide objective, detailed candidate evaluations.
 
-## 🎥 Demo Video
-
-[![▶](https://img.youtube.com/vi/q63Etm78BQE/0.jpg)](https://youtu.be/q63Etm78BQE)
-
-**Click the image above OR the link below to watch the demo video:**
-
-[Watch Smart Resume Screener Demo on YouTube](https://youtu.be/q63Etm78BQE)
 
 ### Key Highlights
 
@@ -412,14 +405,13 @@ curl -X POST http://localhost:8080/api/upload
 {
 "success": true,
 "resumeId": 1,
-"candidateName": "Sukesh",
+"candidateName": "DEEPAK",
 "data": {
 "id": 1,
-"candidateName": "Sukesh",
-"email": "Sukesh@gmail.com",
-"phone": "+91-8121865233",
-"skills": "Java, Spring Boot, MySQL, REST APIs",
-"experience": "3 years as Java Developer at TechCorp",
+"candidateName": "DEEPAK",
+"email": "deepak@gmail.com",
+"phone": "+91-9550669218",
+"skills": "Java, Spring Boot, MySQL, REST APIs",,
 "education": "B.Tech Computer Science, VIT"
 }
 }
@@ -445,14 +437,14 @@ curl -X POST http://localhost:8080/api/match
 "results": [
 {
 "resumeId": 1,
-"candidateName": "Sukesh",
+"candidateName": "Deepak",
 "matchScore": 8.5,
 "justification": "Strong match for the Senior Java Developer position. The candidate has 3 years of hands-on experience with Java and Spring Boot, which aligns well with the technical requirements. Skills in REST APIs and MySQL demonstrate full-stack capabilities. However, the candidate has only 3 years of experience while the job requires 5+, and there's no mention of cloud technologies like AWS or Docker. Overall, a solid candidate who could grow into the role with some upskilling in cloud platforms.",
 "skills": "Java, Spring Boot, MySQL, REST APIs",
 "experience": "3 years as Java Developer at TechCorp",
 "education": "B.Tech Computer Science, NIT",
-"email": "Sukesh@gmail.com",
-"phone": "+91-8121865233"
+"email": "deepak@gmail.com",
+"phone": "+91-9550669218"
 },
 {
 "resumeId": 2,
@@ -492,9 +484,9 @@ curl -X GET http://localhost:8080/api/resumes
 [
 {
 "id": 1,
-"candidateName": "Sukesh",
-"email": "Sukesh@gmail.com",
-"phone": "+91-8121865233",
+"candidateName": "DEEPAK",
+"email": "deepak@gmail.com",
+"phone": "+91-9550669218",
 "skills": "Java, Spring Boot, MySQL",
 "experience": "3 years as Java Developer",
 "education": "B.Tech Computer Science",
@@ -626,9 +618,9 @@ smart-resume-screener/
 
 ## 👨‍💻 Author
 
-**Kora Sai Sukesh**
-- GitHub: [@Sukesh1104](https://github.com/Sukesh1104)
-- Email: saisukesh.kora@gmail.com
+**Addala Deepak**
+- GitHub: [@DEEPAKADDALA](https://github.com/DEEPAKADDALA)
+- Email: deepakaddala24@gmail.com
 
 ---
 
